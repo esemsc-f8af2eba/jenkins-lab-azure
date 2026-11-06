@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: '<your repo url>'
+                git branch: 'main', url: 'https://github.com/esemsc-f8af2eba/jenkins-lab-azure.git'
             }
         }
         stage('Install Terraform') {
